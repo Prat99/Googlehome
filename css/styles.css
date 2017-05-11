@@ -1,13 +1,30 @@
+body{
+  margin-top:70px;
+  font-size:16px;
+}
 .navbar-inverse{background: #fff !important; border:0;font-family:Poppins;}
 .navbar-brand{color:#000 !important; font-size:20px; font-weight:700}
-.navbar{margin-bottom:50px !important;}
+.navbar-right li a{color: #000 !important;font-family: 'Roboto', sans-serif; font-weight: bold;}
 h1,h2,h3,h4,h5,h6{font-family:Poppins;}
-.showcase .showcase-left img, .about .about-left img{width:90%; margin-left:25px;}
-.showcase .showcase-right h1{font-size:50px; margin-bottom: 20px;}
+p{font-family: 'Roboto', sans-serif;}
+a{
+  font-family: 'Roboto';
+}
+#showcase .showcase-left img, .about .about-left img{width:90%; margin-left:25px;}
+#showcase .showcase-right h1{font-size:50px; margin-bottom: 20px;}
 .about{margin-top:50px;}
- .about .about-right h1{font-size:32px; margin-bottom: 20px;}
-.showcase .showcase-right p, .about .about-right p{font-size: 20px; font-family:Roboto;margin-bottom: 20px;}
-.showcase .showcase-right{margin-top:50px;}
+.about .about-right h1{font-size:32px; margin-bottom: 20px;}
+#showcase .showcase-right p, .about .about-right p{font-size: 20px;font-family: 'Roboto', sans-serif; margin-bottom: 20px;}
+#about .about-right{    margin-top: 120px;}
+#showcase .showcase-right{margin-top:50px;}
 .testimonial{background: #f1f1f1; width:100%; margin:50px auto 0; padding: 50px 0 30px;}
 .testimonial p{font-family: 'Lobster', cursive; font-size: 26px; line-height:36px; text-align: center;}
 .testimonial .credits{text-align: center;}
+#contact{margin-top:30px;}
+#contact{  background:
+     url(../img/image3.png);              /* repeat */
+   }
+form{width:80%; margin:auto; padding-top: 50px;padding-bottom: 20px;}
+label{color: #fff; font-size: 16px; font-family:'Poppins';}
+footer p{text-align:center; font-size: 16px; font-family: 'Roboto';padding:20px 0px;}
+footer{background: #f1f1f1;}
